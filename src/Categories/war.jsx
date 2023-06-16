@@ -1,18 +1,20 @@
 import React from "react";
-import movies from './movies.json';
-import Cards from "./Card";
-import './index.css';
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Footer from "../../src/Footer";
 
-function App_()
+import Cards from "../Card";
+import '../../src/index.css';
+import movies from '../../src/movies.json';
+
+import Navbar from "../Navbar";
+
+function War()
 { 
  
   return(
     <>
     <Navbar/>
     <div className="main-container">
-   {movies.home.map((item, index) => {
+   {movies.war.map((item, index) => {
         return (
         <>
 
@@ -26,4 +28,4 @@ function App_()
     </>
   )
 }
-export default App_;
+export default War;

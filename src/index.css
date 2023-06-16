@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    box-sizing: border-box;
+    padding: 0px;
+   
+    margin: 0px;
 }
+.container1{
+    display:  flex;
+    float: left;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 10px;
+    
+}
+img{
+    width: 220px;
+    height: 260px;
+    opacity: 0.8;
+}
+.card1title{
+    text-align: center;
+    font-size: 19px;
+}
+.company{
+    text-align: center;
+    font-size: 15px;
+}   
+.main1card{
+    border: 1px solid black;
+}
+.card1{
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.card1company{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+img:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+@media (max-width: 576px) {
+    .container1{
+        width: 30%;
+        height: 30%;
+        padding-right: 10px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    }
+    img{
+        width: 140px;
+        height: 160px;
+        opacity: 0.8;
+    }
+    .card1title{
+        text-align: center;
+        font-size: 15px;
+    }
+    .card1company{
+        text-align: center;
+        font-size: 15px;
+    }   
+   
+}
+.main-container{
+    padding-top: 60px;
+    padding-left: 10px;
+    margin-bottom: 40%;
 }

@@ -1,0 +1,48 @@
+.dropdown_item_color {
+    background-color: #F79F1F;
+
+}
+
+.dropdown-item {
+    color: black;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.d-btn {
+    padding: 2px;
+}
+
+.zeeshan-text {
+
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding-left: 45%;
+}
+.offcanvas-width {
+    width: 100px;
+  }
+
+@media (max-width: 576px) {
+
+
+    .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        background-color: #343a40;
+    }
+
+    .zeeshan-text {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        padding-left: 30px;
+    }
+
+    .offcanvas-width {
+        width: 50%;
+      }
+      
+
+}
