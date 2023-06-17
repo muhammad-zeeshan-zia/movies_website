@@ -1,74 +1,102 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0px;
-   
+
     margin: 0px;
 }
-.container1{
-    display:  flex;
+
+.container1 {
+    display: flex;
     float: left;
     justify-content: space-between;
     margin: 20px;
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
- 
-    
+
+
 }
-img{
+
+img {
     width: 230px;
     height: 260px;
     opacity: 0.8;
 }
-.card1title{
+
+.card1title {
     text-align: center;
     font-size: 19px;
 }
-.company{
+
+.company {
     text-align: center;
     font-size: 15px;
-}   
-.main1card{
+}
+
+.main1card {
     border: 1px solid black;
 }
-.card1{
+
+.card1 {
     background-color: rgba(0, 0, 0, 0.884);
     color: white;
 }
-.card1company{
+
+.card1company {
     text-align: center;
     font-size: 18px;
- 
+
 }
 
-img:hover{
-    opacity: 1;
-    transition: 0.5s;
-}
-@media (max-width: 576px) {
-    .container1{
-        width: 30%;
-        height: 30%;
-        padding-right: 10px;
-
-    }
-    img{
-        width: 140px;
-        height: 160px;
-        opacity: 0.8;
-    }
-    .card1title{
-        text-align: center;
-        font-size: 15px;
-    }
-    .card1company{
-        text-align: center;
-        font-size: 15px;
-    }   
-   
-}
-.main-container{
+.main-container {
     padding-top: 60px;
     padding-left: 120px;
     margin-bottom: 40%;
-    
+
+}
+
+img:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+@media (max-width: 576px) {
+    .container1 {
+        display: flex;
+        float: left;
+        justify-content: space-between;
+        margin: 7px;
+        margin-top: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+
+    }
+    .main-container {
+        padding-top: 60px;
+        padding-left: 10px;
+
+
+    }
+
+    .card1 {
+        background-color: rgba(0, 0, 0, 0.884);
+        color: white;
+      
+    }
+
+    img {
+        width: 160px;
+        height: 160px;
+        opacity: 0.8;
+    }
+
+    .card1company {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .card1title {
+        text-align: center;
+        font-size: 13px;
+    }
 }
