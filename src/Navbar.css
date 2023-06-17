@@ -19,9 +19,22 @@
     font-size: 22px;
     padding-left: 45%;
 }
+
 .offcanvas-width {
     width: 100px;
-  }
+}
+
+.dropdown-item {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.active {
+    text-decoration: none;
+    color: red;
+}
 
 @media (max-width: 576px) {
 
@@ -42,7 +55,7 @@
 
     .offcanvas-width {
         width: 50%;
-      }
-      
+    }
+
 
 }

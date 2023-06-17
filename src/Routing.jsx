@@ -13,7 +13,7 @@ const Routing = () => {
     
         <Routes>
             <Route exact path="/" Component={App_}/>
-            <Route exact path="/animated" Component={Animated}/>
+             <Route exact path="/animated" Component={Animated}/>
             <Route exact path="/war" Component={War}/>
             <Route exact path="/thriller" Component={Thriller}/>
             <Route exact path="/mystery" Component={Mystery}/>

@@ -10,7 +10,6 @@ function App_()
  
   return(
     <>
-    <Navbar/>
     <div className="main-container">
    {movies.home.map((item, index) => {
         return (
@@ -22,7 +21,6 @@ function App_()
         ) ;
       })}
       </div>
-      <Footer/>
     </>
   )
 }

@@ -12,7 +12,6 @@ function War()
  
   return(
     <>
-    <Navbar/>
     <div className="main-container">
    {movies.war.map((item, index) => {
         return (
@@ -24,7 +23,7 @@ function War()
         ) ;
       })}
       </div>
-      <Footer/>
+
     </>
   )
 }

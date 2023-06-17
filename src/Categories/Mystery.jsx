@@ -24,7 +24,7 @@ function Mystery()
         ) ;
       })}
       </div>
-      <Footer/>
+
     </>
   )
 }

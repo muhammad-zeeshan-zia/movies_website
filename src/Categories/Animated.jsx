@@ -12,7 +12,7 @@ function Animated()
  
   return(
     <>
-    <Navbar/>
+    
     <div className="main-container">
    {movies.animated_movies.map((item, index) => {
         return (
@@ -24,7 +24,7 @@ function Animated()
         ) ;
       })}
       </div>
-      <Footer/>
+      
     </>
   )
 }
